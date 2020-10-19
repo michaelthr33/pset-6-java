@@ -16,7 +16,7 @@ public class Exercise4 {
             TestInteger = in.nextInt();
             Counter = Counter+1;
             Sum = Sum + TestInteger;
-        } while (TestInteger>=0);
+        } while (TestInteger>0);
         System.out.println();
 
 
@@ -24,7 +24,7 @@ public class Exercise4 {
             System.out.println("Error: division by zero.");
         } else {
             Average = (Sum-TestInteger)/(Counter-1);
-            System.out.print(Decimal.format(Average));
+            System.out.println(Decimal.format(Average)+".");
         }
 
 
