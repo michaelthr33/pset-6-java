@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Exercise1 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        DecimalFormat Decimal =new DecimalFormat("0");
+        DecimalFormat Decimal =new DecimalFormat("#");
         Decimal.setGroupingUsed(true);
         Decimal.setGroupingSize(3);
         int LowerBound;
@@ -12,7 +12,8 @@ public class Exercise1 {
         int Sum;
 
         do {
-            System.out.print("Lover Bound: ");
+            System.out.print("Lower Bound: ");
+            // corrected typo
             LowerBound = in.nextInt();
             System.out.print("Upper Bound: ");
             UpperBound = in.nextInt();

@@ -19,6 +19,7 @@ public class Exercise7 {
             System.out.print("Enter an integer: ");
             TestInteger = in.nextInt();
         } while (TestInteger<=0);
+
         System.out.println();
 
 
@@ -46,7 +47,7 @@ public class Exercise7 {
             OutputFactor = TestInteger/Counter;
             System.out.print(", "+OutputFactor+", "+Counter+".");
         }
-
-
+System.out.println();
+// newline added
     }
 }
